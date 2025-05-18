@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bingo Generator</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<!-- Eingabefeld für Codes oben rechts -->
+<div class="code-box">
+  <label for="codeInput"></label><input type="text" id="codeInput" placeholder="z.B. Kara:5:123456" />
+  <button id="validateBtn">Zettel anzeigen</button>
+</div>
+
+<div class="container">
+  <h1>Bingo Generator</h1>
+  <label for="arraySelector">Kategorie wählen:</label>
+  <select id="arraySelector"></select>
+  <button id="generateBtn">Bingo erstellen</button>
+  <div id="bingoBoard" class="bingo-board"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
