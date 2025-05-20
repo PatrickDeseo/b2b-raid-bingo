@@ -64,34 +64,95 @@
   },
   "ZA": {
     "Akil'zon": [
-      "Adlerkralle",
-      "Sturmgesegnete Handschuhe",
-      "Umhang des gefiederten Zorns"
+      "Maske des Mojoheilers",
+      "Blutbefleckte Elfenkampfweste",
+      "Brustschutz der verborgenen Bestimmung",
+      "Brosche der barmherzigen Natur",
+      "Siegel der uralten Magien",
+      "Akil'zons Krallenklinge",
+      "Bestrafer der Amani"
     ],
     "Nalorakk": [
-      "Brustplatte des wilden Bären",
-      "Gürtel des ungezähmten Zorns",
-      "Schultern des Dschungelwächters"
+      "Roben des himmlischen Willens",
+      "Zorn des Bären",
+      "Klingenengels Geldgürtel",
+      "Schulterstücke des Urfurors",
+      "Maske der Besinnung",
+      "Dschungelstampfer",
+      "Furor"
     ],
     "Jan'alai": [
-      "Helm des flammenden Zorns",
-      "Beinschützer des Drachenbändigers",
-      "Ring der sengenden Hitze"
+      "Fußpolster des Wahnsinns",
+      "Helm der natürlichen Regeneration",
+      "Trollhautkürass des Schattenzahns",
+      "Pfeilabwehrender Brustschutz",
+      "Wubs verfluchte Hexerklinge",
+      "Bollwerk des Amaniimperiums",
+      "Emaillierte Scheibe des Mojo"
     ],
     "Halazzi": [
-      "Kettenhemd des Geisterkriegers",
-      "Armschienen des wilden Geistes",
-      "Stab des schleichenden Schattens"
+      "Robe der scheidenden Geister",
+      "Schulterpolster der tanzenden Klingen",
+      "Schimmerpelzweste",
+      "Lawinengamaschen",
+      "Schiftung des Fürsprechers",
+      "Kriegsstiefel des Schädelzertrümmerers",
+      "Halsreif des Wilden"
     ],
     "Hexlord Malacrass": [
-      "Robe des dunklen Rituals",
-      "Klinge des verfluchten Wissens",
-      "Talisman der Schattenmacht"
+      "Umhang der uralten Rituale",
+      "Kapuze des Hexens",
+      "Kapuze des dritten Auges",
+      "Helmkappe des Dschungelpirschers",
+      "Voodooschultern des Hexlords",
+      "Kampferprobter Hauerschützer",
+      "Hoffnungsgurt von Stromgarde",
+      "Verhexter Schrumpfkopf",
+      "Winzige Voodoomaske",
+      "Foliant der diabolischen Heilung",
+      "Dolch des schlechten Mojo",
+      "Angriffsklinge des Streuners",
+      "Herzlos",
+      "Stab des Urfurors"
     ],
     "Zul'jin": [
-      "Axt des Amani-Kriegshäuptlings",
-      "Umhang des Berserkers",
-      "Ring des ungebrochenen Willens"
+      "Zweizehensandalen",
+      "Gesichtsschutz des bösen Grinsens",
+      "Heldenhalsberge des Imperiums",
+      "Kriegsfürstenbrustschutz",
+      "Kollier der verfluchten Knochen",
+      "Altes Artefakt der Aqir",
+      "Ruf des Berserkers",
+      "Klinge der verzerrten Visionen",
+      "Jin'rohk, die große Apokalypse",
+      "Spaltbeil des Unbarmherzigen",
+      "Dunkler Segen",
+      "Uralter Langbogen der Amani"
+    ],
+    "Time Reward Chest I": [
+      "Umhang des Unholds",
+      "Tuch des Schattenzauberers",
+      "Mantelung der bösen Absicht",
+      "Kordel aus geflochtenem Trollhaar",
+      "Gürtel des rückkehrenden Lebens",
+      "Eluniterfüllte Gamaschen",
+      "Schattenjägertreter",
+      "Schulterstücke der steinernen Entschlossenheit"
+    ],
+    "Time Reward Chest II": [
+      "Wut",
+      "Umbralmesser",
+      "Trollbann",
+      "Stab der dunklen Besserung",
+      "Wahrsagerstab der Amani",
+      "Hauerbrecher"
+    ],
+    "Time Reward Chest III": [
+      "Manaangereichertes Band",
+      "Siegel des ewigen Lebens",
+      "Siegel des Urzorns",
+      "Siegel des letzten Verteidigers",
+      "Siegel des stillen Waldes"
     ]
   },
   "BT": {
