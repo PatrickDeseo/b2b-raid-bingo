@@ -139,3 +139,41 @@ document.getElementById("validateBtn").addEventListener("click", () => {
   if (grid) renderGrid(grid, size);
   else alert("❌ Zettel konnte nicht wiederhergestellt werden");
 });
+
+// Button → LootTable zeigen
+// Modal öffnen
+document.getElementById("showLootBtn").addEventListener("click", () => {
+  const topic = document.getElementById("arraySelector").value;
+  const data = bingoData[topic];
+  const output = document.getElementById("lootOutput");
+  const modal = document.getElementById("lootModal");
+
+  if (!data) {
+    output.textContent = "❌ Keine Daten gefunden.";
+  } else {
+    let text = "";
+    for (const [boss, items] of Object.entries(data)) {
+      text += boss + "\n";
+      items.forEach(item => {
+        text += "  • " + item + "\n";
+      });
+      text += "\n";
+    }
+    output.textContent = text.trim();
+  }
+
+  modal.style.display = "block";
+});
+
+// Modal schließen
+document.querySelector(".modal .close").addEventListener("click", () => {
+  document.getElementById("lootModal").style.display = "none";
+});
+
+// Klick außerhalb schließt Modal
+window.addEventListener("click", (e) => {
+  const modal = document.getElementById("lootModal");
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
