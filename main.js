@@ -109,11 +109,7 @@ Object.keys(bingoData).forEach(key => {
 // Button → Zettel generieren
 document.getElementById("generateBtn").addEventListener("click", () => {
   const topic = selector.value;
-  const total = Object.values(bingoData[topic]).flat().length;
-
-  let size = 3;
-  if (total >= 25) size = 5;
-  else if (total >= 16) size = 4;
+  const size = parseInt(document.getElementById("gridSize").value, 10);
 
   const seed = Math.floor(Math.random() * 1000000);
   document.getElementById("codeInput").value = `${topic}:${size}:${seed}`;
