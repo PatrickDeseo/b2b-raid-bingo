@@ -56,6 +56,12 @@ body {
   text-decoration: line-through;
 }
 
+.bingo-cell.failed {
+  background-color: #222831;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
 .code-box {
   position: fixed;
   top: 10px;

@@ -91,7 +91,14 @@ function renderGrid(grid, size) {
       <div class="person-text">${person}</div>
     `;
     cell.addEventListener("click", () => {
-      cell.classList.toggle("done");
+      if (cell.classList.contains("done")) {
+        cell.classList.remove("done");
+        cell.classList.add("failed");
+      } else if (cell.classList.contains("failed")) {
+        cell.classList.remove("failed");
+      } else {
+        cell.classList.add("done");
+      }
     });
     board.appendChild(cell);
   });
